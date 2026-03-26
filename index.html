@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpDate Courses</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Перейти до основного вмісту</a>
+
+    <header class="header">
+        <div class="container header__wrapper">
+            <a href="#" class="logo" aria-label="UpDate головна сторінка">
+                <img src="images/logo.png" alt="Логотип UpDate">
+            </a>
+
+            <nav class="nav" aria-label="Головна навігація">
+                <a class="nav__link" href="#">Courses</a>
+                <a class="nav__link" href="#">Teachers</a>
+                <a class="nav__link" href="#">Blog</a>
+            </nav>
+
+            <div class="header__actions">
+                <a class="header__link" href="#" lang="en" aria-label="Змінити мову на англійську">En</a>
+                <a class="header__link" href="#" aria-label="Увійти в акаунт">Sign in</a>
+                <button class="btn btn--small" type="button" aria-label="Розпочати безкоштовний пробний період">
+                    Trial free
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <div class="container hero__wrapper">
+                <div class="hero__content">
+                    <h1 class="hero__title">Explore thousands of hands-on creative classes.</h1>
+
+                    <p class="hero__subtitle">Starting at free</p>
+
+                    <button class="btn" type="button" aria-label="Обрати курс">
+                        Choose a course
+                    </button>
+
+                    <div class="hero__discount" aria-label="Знижка 50 відсотків на всі курси">
+                        <span class="hero__discount-value">50%</span>
+                        <p class="hero__discount-text">All courses</p>
+                    </div>
+                </div>
+
+                <div class="hero__image-wrapper">
+                    <img class="hero__image" src="images/man.png" alt="Чоловік вказує рукою на навчальні курси">
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats__wrapper">
+                <div class="stats__info">
+                    <h2 class="stats__title">What you will learn</h2>
+                    <p class="stats__text">
+                        Up-to-date knowledge from recognized market experts for beginners and practitioners.
+                    </p>
+                    <p class="stats__text">
+                        On the platform, you can gain knowledge on current topics and be interested. But an actual and varied approach also helps the relevance of the material and helps with employment and internship.
+                    </p>
+                </div>
+
+                <div class="stats__items" aria-label="Статистика платформи">
+                    <div class="stats__item">
+                        <span class="stats__number">56</span>
+                        <p class="stats__label">Courses</p>
+                    </div>
+
+                    <div class="stats__item">
+                        <span class="stats__number">108</span>
+                        <p class="stats__label">Curators</p>
+                    </div>
+
+                    <div class="stats__item">
+                        <span class="stats__number">3 723</span>
+                        <p class="stats__label">Graduates</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses">
+            <div class="container">
+                <div class="courses__top">
+                    <h2 class="courses__title">Discover Lifelong Learning</h2>
+
+                    <a href="#" class="courses__more" aria-label="Переглянути більше курсів">
+                        See more
+                    </a>
+                </div>
+
+                <div class="courses__categories" aria-label="Категорії курсів">
+                    <button class="category-btn category-btn--active" type="button">Popular</button>
+                    <button class="category-btn" type="button">Animation</button>
+                    <button class="category-btn" type="button">Design</button>
+                    <button class="category-btn" type="button">Illustration</button>
+                    <button class="category-btn" type="button">Programming</button>
+                    <button class="category-btn" type="button">Photo &amp; Film</button>
+                    <button class="category-btn" type="button">Marketing</button>
+                </div>
+
+                <div class="cards">
+                    <article class="card" tabindex="0" aria-label="Курс Sales Marketing, 8 months">
+                        <img class="card__image" src="images/imageSalesmarketing.png" alt="Ілюстрація курсу Sales Marketing">
+                        <h3 class="card__title">Sales Marketing</h3>
+                        <p class="card__duration">8 months</p>
+                    </article>
+
+                    <article class="card" tabindex="0" aria-label="Курс Data analytics, 9 months">
+                        <img class="card__image" src="images/Imagedataanalytics.png" alt="Ілюстрація курсу Data analytics">
+                        <h3 class="card__title">Data analytics</h3>
+                        <p class="card__duration">9 months</p>
+                    </article>
+
+                    <article class="card" tabindex="0" aria-label="Курс Design art, 4 months">
+                        <img class="card__image" src="images/Imagedesignart.png" alt="Ілюстрація курсу Design art">
+                        <h3 class="card__title">Design art</h3>
+                        <p class="card__duration">4 months</p>
+                    </article>
+
+                    <article class="card" tabindex="0" aria-label="Курс Animation, 8 months">
+                        <img class="card__image" src="images/imageAnimation.png" alt="Ілюстрація курсу Animation">
+                        <h3 class="card__title">Animation</h3>
+                        <p class="card__duration">8 months</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="help">
+            <div class="container help__wrapper">
+                <div class="help__content">
+                    <h2 class="help__title">Can't find a suitable program?</h2>
+                    <p class="help__text">We will help you with the choice!</p>
+                </div>
+
+                <form class="help__form" action="#" method="post" aria-label="Форма підбору програми">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            placeholder="Name"
+                            required
+                            aria-required="true"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="Email"
+                            required
+                            aria-required="true"
+                        >
+                    </div>
+
+                    <button class="btn btn--dark" type="submit" aria-label="Надіслати форму допомоги">
+                        Help me
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__wrapper">
+            <div class="footer__column">
+                <a href="#" class="logo footer__logo" aria-label="UpDate головна сторінка">
+                    <img src="images/logo.png" alt="Логотип UpDate">
+                </a>
+                <a class="footer__link" href="mailto:support@update.com">support@update.com</a>
+                <a class="footer__link" href="tel:+12136377024">+1 (213) 677 10 24</a>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Courses</h3>
+                <a class="footer__link" href="#">Animation</a>
+                <a class="footer__link" href="#">Design</a>
+                <a class="footer__link" href="#">Illustration</a>
+                <a class="footer__link" href="#">Programming</a>
+                <a class="footer__link" href="#">Photo &amp; Film</a>
+                <a class="footer__link" href="#">Marketing</a>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Teachers</h3>
+                <a class="footer__link" href="#">All Teachers</a>
+                <a class="footer__link" href="#">Become a Teacher</a>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Information</h3>
+                <a class="footer__link" href="#">Blog</a>
+                <a class="footer__link" href="#">About us</a>
+                <a class="footer__link" href="#">FAQ</a>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">En</h3>
+                <a class="footer__link" href="#">English</a>
+                <a class="footer__link" href="#">French</a>
+                <a class="footer__link" href="#">Russian</a>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>Policy privacy</p>
+            <p>Copyright 2025. All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
